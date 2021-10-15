@@ -1,0 +1,21 @@
+{
+    "name": "nheinz/estructura",
+    "description": "Challenge",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Nicolas Heinz",
+            "email": "nicolasheinz.2014@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^3.0",
+        "guzzlehttp/guzzle": "^7.0",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Api\\": "src/"
+        }
+    }
+}
